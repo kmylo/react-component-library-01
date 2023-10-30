@@ -1,5 +1,5 @@
 {
-  "name": "@kmylo/react-component-library",
+  "name": "@kmylo/react-component-library-01",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "buildLib": "rollup -c"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kmylo"
   },
   "keywords": [],
   "author": "",
