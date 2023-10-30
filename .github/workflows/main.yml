@@ -17,7 +17,7 @@ jobs:
           cache: 'npm'
           registry-url: https://npm.pkg.github.com/
           scope: '@kmylo'
-      - run: npm ci
+      - run: npm i --legacy-peer-deps
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
